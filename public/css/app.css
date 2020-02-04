@@ -6,6 +6,8 @@ html {
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -49,11 +51,16 @@ a {
   padding-top: 10rem;
 }
 
+.panel .section-dashboard {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 3rem;
+}
+
 .panel a {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
-  margin-top: 5rem;
+  margin-bottom: 5rem;
   font-size: 2rem;
   color: #fff;
   opacity: 0.8;
@@ -66,5 +73,37 @@ a {
 
 .panel a:hover {
   opacity: 1;
+}
+
+.sideBar {
+  width: 100%;
+  padding: 3rem;
+  box-shadow: 0px 6px 17px -4px;
+  position: relative;
+}
+
+.sideBar .logo {
+  background: url(/images/logo.png?7e067afa86dc496790bd7657b7c1a226);
+  background-size: cover;
+  padding: 0.5rem 0;
+  height: 6rem;
+  width: 6rem;
+  position: absolute;
+  z-index: 10;
+  left: 1%;
+  top: 0;
+}
+
+.sideBar:after {
+  content: "";
+  height: 15rem;
+  width: 12rem;
+  background-color: #1F33ED;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: -10px;
+  top: -65px;
+  box-shadow: 0px 6px 17px -4px;
 }
 

@@ -7,9 +7,14 @@
         padding-top: 10rem;
     }
 
+    .section-dashboard{
+        border-bottom: 1px solid $white;
+        padding-bottom: 3rem;
+    }
+
     a{
         flex-direction: column;
-        margin-top:5rem;
+        margin-bottom:5rem;
         font-size: 2rem;
         color: $white;
         opacity: .8;

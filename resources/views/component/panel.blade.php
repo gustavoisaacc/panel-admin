@@ -4,24 +4,18 @@
     <div class="panel">
 
         <div class="container menu">
-            <div class="section-dashboard border-bottom">
-                <a class="flex" href="#">
-                    <i class="fas fa-tachometer-alt"></i>    
-                    <span>Dashboard</span>
-                </a>
-            </div>
             
-            <div class="section-pages">
+            <div class="section-inicio">
                 <a class="flex" href="#">
-                    <i class="fas fa-folder"></i>    
-                    <span>Pages</span>
+                    <i class="fas fa-home"></i>    
+                    <span>Inicio</span>
                 </a>
             </div>
 
-            <div class="section-blog">
+            <div class="section-Post">
                 <a class="flex" href="#">
                     <i class="fas fa-folder"></i>
-                    <span>Blog</span>
+                    <span>Post</span>
                 </a>
             </div>
         </div>

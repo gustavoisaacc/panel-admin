@@ -12,11 +12,11 @@
 </head>
 <body>
 
-<div class="container">
+
     @component('component.sideBar')
     @endcomponent
     @yield('content')
-</div>
+
     
 </body>
 </html>
