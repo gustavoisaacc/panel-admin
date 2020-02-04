@@ -7,7 +7,8 @@
     <title>Document</title>
 
     <script src="https://kit.fontawesome.com/707e45c747.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+
 </head>
 <body>
 

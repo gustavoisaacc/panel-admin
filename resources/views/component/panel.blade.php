@@ -3,25 +3,25 @@
 @section('content')
     <div class="panel">
 
-        <div class="section-pages border-bottom">
-            <a href="#">
-                <i class="fas fa-tachometer-alt"></i>    
-                <span>Dashboard</span>
-            </a>
-        </div>
-
-        <div class="container">
+        <div class="container menu">
+            <div class="section-dashboard border-bottom">
+                <a class="flex" href="#">
+                    <i class="fas fa-tachometer-alt"></i>    
+                    <span>Dashboard</span>
+                </a>
+            </div>
+            
             <div class="section-pages">
-                <a href="#">
+                <a class="flex" href="#">
                     <i class="fas fa-folder"></i>    
                     <span>Pages</span>
                 </a>
             </div>
 
             <div class="section-blog">
-                <a href="#">
+                <a class="flex" href="#">
                     <i class="fas fa-folder"></i>
-                    <span>blog</span>
+                    <span>Blog</span>
                 </a>
             </div>
         </div>

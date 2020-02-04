@@ -1,0 +1,26 @@
+.panel{
+    width: 10rem;
+    height:100vh;
+    background: linear-gradient(180deg, #1F33ED 0%, rgba(255, 255, 255, 0) 100%), #7D3D7D;
+
+    .menu{
+        padding-top: 10rem;
+    }
+
+    a{
+        flex-direction: column;
+        margin-top:5rem;
+        font-size: 2rem;
+        color: $white;
+        opacity: .8;
+
+        i{
+            color: $white;
+            font-size: 3rem;
+        }
+
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
